@@ -1,0 +1,133 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h2{
+    font-weight: 900;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: hsl(225, 100%, 94%);
+  }
+
+  .card {
+    width: 24em;
+    /* box-shadow: 4px 4px 25px rgb(59, 54, 54); */
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .image-div {
+    height: 13em;
+  }
+
+  .image-div img {
+    height: 100%;
+  }
+
+  .container2 {
+    text-align: center;
+    padding: 2em;
+    background-color: white;
+  }
+
+  .title-head {
+    margin: initial;
+    font-size: 1.3em;
+    color: hsl(223, 50%, 23%);
+  }
+
+  .paragraph {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 1.5em 0;
+    color: hsl(224, 24%, 54%);
+  }
+
+  .plan-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: hsl(230, 55%, 96%);
+    margin: 2em 0;
+    padding: 1em;
+    border-radius: 10px;
+    font-size: 0.85em;
+  }
+
+  .plan-about {
+    display: flex;
+  }
+
+  .music-icon img {
+    width: 2.5em;
+    margin-right: 1em;
+  }
+
+  .planname {
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .planprice {
+    font-size: 1em;
+    color: hsl(224, 30%, 62%);
+  }
+
+  .changediv {
+    color: hsl(245, 70%, 49%);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .changediv:hover {
+    text-decoration: none;
+  }
+
+  .button {
+    background-color: hsl(245, 75%, 52%);
+  color:white;
+  width:100%;
+  border-radius: 8px;
+  height: 40px;
+  margin-bottom: 30px;
+  border: 0;
+  box-shadow: 0px 10px 20px #888888;
+  }
+  .button:hover{
+    background-color: #5C7AEA;
+  }
+
+  .cancel{
+    font-weight: 900;
+    text-decoration: none;
+    margin: 30px;
+    color:hsl(224, 30%, 62%)
+
+  }
+  .cancel:hover{
+    color: hsl(223, 47%, 23%);
+  }
